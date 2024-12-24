@@ -1,1 +1,49 @@
 @charset "UTF-8";
+
+.box{
+  display: table;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.main--area .box:first-child {
+  margin-top: 0;
+}
+
+.basebox{
+  display: table-cell;
+  text-align: center;
+  padding: 20px;
+}
+
+.redbox{
+  background-color: #ff7b7b;
+  width: 300px;
+}
+
+.bluebox{
+  background-color: #7b86ff;
+}
+
+.yellowbox{
+  background-color: #fff27b;
+  width: 300px;
+}
+
+.greenbox{
+  background-color: #7bff91;
+}
+
+.pinkbox{
+  background-color: #ff7be2;
+  width: 400px;
+}
+
+.orangebox{
+  background-color: #ffc67b;
+  width: 400px;
+}
+
+.skybluebox{
+  background-color: #7bf2ff;
+}
